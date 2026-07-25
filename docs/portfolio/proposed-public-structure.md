@@ -55,8 +55,8 @@ fraud-detection-autoencoders/
 |---|---|---|---|
 | `Trabajo_Final.ipynb`, cells 2-76 | `src/`, `notebooks/`, and `docs/methodology.md` | `RECREATE` | Rebuild in English, preserve the documented seed/split/threshold logic, and remove stale paths and embedded outputs. |
 | `Trabajo_Final.ipynb`, cells 77-125 | `docs/results.md` and rerun notebooks | `SUMMARISE` | Cite a matching rerun for every public metric; otherwise label results as historical reported results or omit them. |
-| `Trabajo_Final.pdf` | `docs/executive-summary.md` | `SUMMARISE` | English-only executive summary; original PDF remains private. |
-| Existing report figures | `figures/` | `RECREATE` | Redraw in English with source-backed captions. Relevant private references: `Trabajo_Final.pdf`, pp. 47-49, 70-71, and 78-80. |
+| `Trabajo Final de Master.pdf` | `docs/executive-summary.md` | `SUMMARISE` | English-only executive summary; original PDF remains private. |
+| Existing report figures | `figures/` | `RECREATE` | Redraw in English with source-backed captions. Relevant private references: `Trabajo Final de Master.pdf`, pp. 10-13, 31-38, 42-49, and 61-63. |
 | `creditcard.csv` | `data/synthetic/sample_transactions.csv` | `REPLACE WITH SYNTHETIC DATA` | Do not copy real records. Include only a schema-compatible synthetic sample and data-access statement. |
 | `Modelos/` | none by default | `KEEP PRIVATE` | Publish no weights/history arrays without a clean rerun, model card, and owner approval. |
 | Internal audit/governance files | none | `EXCLUDE FROM PUBLIC VERSION` | Do not copy `AGENTS.md` or `docs/portfolio/`. |
@@ -89,3 +89,4 @@ fraud-detection-autoencoders/
 4. The methodological framing of SMOTE-balanced training.
 5. Any personal attribution and any reusable dissertation figures.
 6. The final approved file list after a secret scan and reproduction run.
+7. Whether `Trabajo_Final.ipynb` is the intended Python source or a separate `.py` file must be supplied.
