@@ -26,10 +26,10 @@ reproduced while preparing this documentation.
 
 | Experiment | AUC | Precision | Recall | Specificity | Source |
 |---|---:|---:|---:|---:|---|
-| Conventional autoencoder, normal-only test | 0.95 | 11.77% | 86.65% | 94.95% | `report/master-thesis-fraud-detection-es.pdf`, p. 37; `Trabajo_Final.ipynb`, cells 91-92 |
-| VAE, normal-only test | 0.92 | 10.06% | 71.49% | 95.03% | `report/master-thesis-fraud-detection-es.pdf`, p. 38; `Trabajo_Final.ipynb`, cells 100-101 |
-| Conventional autoencoder, SMOTE-balanced test | 0.94 | 2.30% | 82.83% | 93.86% | `report/master-thesis-fraud-detection-es.pdf`, p. 48; `Trabajo_Final.ipynb`, cells 108-116 |
-| VAE, SMOTE-balanced test | 0.93 | 1.98% | 71.72% | 93.783% | `report/master-thesis-fraud-detection-es.pdf`, p. 49; `Trabajo_Final.ipynb`, cells 117-125 |
+| Conventional autoencoder, normal-only test | 0.95 | 11.77% | 86.65% | 94.95% | `report/master-thesis-es.pdf`, p. 37; `notebooks/final/fraud-detection-analysis.ipynb`, cells 91-92 |
+| VAE, normal-only test | 0.92 | 10.06% | 71.49% | 95.03% | `report/master-thesis-es.pdf`, p. 38; `notebooks/final/fraud-detection-analysis.ipynb`, cells 100-101 |
+| Conventional autoencoder, SMOTE-balanced test | 0.94 | 2.30% | 82.83% | 93.86% | `report/master-thesis-es.pdf`, p. 48; `notebooks/final/fraud-detection-analysis.ipynb`, cells 108-116 |
+| VAE, SMOTE-balanced test | 0.93 | 1.98% | 71.72% | 93.783% | `report/master-thesis-es.pdf`, p. 49; `notebooks/final/fraud-detection-analysis.ipynb`, cells 117-125 |
 
 Low precision remains an important false-positive limitation. The PCA
 normal-only test is not a headline result because the dissertation reports AUC
@@ -38,13 +38,13 @@ normal-only test is not a headline result because the dissertation reports AUC
 ## Technologies
 
 Python, pandas, NumPy, scikit-learn, TensorFlow/Keras, imbalanced-learn,
-Matplotlib, and Seaborn. Source: `Trabajo_Final.ipynb`, cell 2.
+Matplotlib, and Seaborn. Source: `notebooks/final/fraud-detection-analysis.ipynb`, cell 2.
 
 ## Repository contents
 
-- [Final project notebook](Trabajo_Final.ipynb) - primary implementation and analysis record.
-- [Experimental notebook](Pruebas%20autoencoder%200.ipynb) - earlier experiments and tests.
-- [Master's dissertation (Spanish)](report/master-thesis-fraud-detection-es.pdf) - primary historical-results source.
+- [Final project notebook](notebooks/final/fraud-detection-analysis.ipynb) - primary implementation and analysis record.
+- [Experimental notebook](notebooks/experiments/autoencoder-experiments.ipynb) - earlier experiments and tests.
+- [Master's dissertation (Spanish)](report/master-thesis-es.pdf) - primary historical-results source.
 - [Project overview](docs/project-overview.md)
 - [Data and preprocessing](docs/data-and-preprocessing.md)
 - [Models and experiments](docs/models-and-experiments.md)
@@ -55,3 +55,19 @@ Matplotlib, and Seaborn. Source: `Trabajo_Final.ipynb`, cell 2.
 No real data are included or redistributed. The normal-only and SMOTE-balanced
 routes are separate experiment families. The reported metrics are historical,
 not independently reproduced release results.
+## Master's dissertation
+
+The Master's dissertation PDF is © 2026 Jandro Gil. It is provided for
+portfolio and academic-review purposes. Reuse or redistribution is not
+authorised unless explicitly permitted by the author.
+
+## Licence
+
+The source code and code-related documentation in this repository are
+available under the [MIT License](LICENSE).
+
+The original transaction dataset is not included and remains subject to the
+terms established by its original provider.
+
+The Master's dissertation PDF and any third-party names, logos or materials
+are not covered by the MIT Licence unless explicitly stated otherwise.

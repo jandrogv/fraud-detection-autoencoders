@@ -10,7 +10,7 @@ autoencoder, and a VAE. It is an academic analysis, not a deployed service.
 The objectives were to explore class imbalance, prepare the data, compare the
 three model families, score anomalies by reconstruction MSE, choose thresholds,
 and evaluate the resulting alerts with multiple metrics. Sources: `Trabajo
-Final de Master.pdf`, pp. 14-27; `Trabajo_Final.ipynb`, cells 20-70 and 77-125.
+Final de Master.pdf`, pp. 14-27; `notebooks/final/fraud-detection-analysis.ipynb`, cells 20-70 and 77-125.
 
 ## Workflow
 
@@ -22,7 +22,7 @@ Final de Master.pdf`, pp. 14-27; `Trabajo_Final.ipynb`, cells 20-70 and 77-125.
 6. Review ROC-AUC, precision, recall, specificity, confusion matrices, and
    reconstruction-error distributions.
 
-Source: `Trabajo_Final.ipynb`, cells 10-18, 25-28, 38-42, 51-60, and 77-125.
+Source: `notebooks/final/fraud-detection-analysis.ipynb`, cells 10-18, 25-28, 38-42, 51-60, and 77-125.
 
 ## Professional skills demonstrated
 
@@ -32,6 +32,6 @@ Source: `Trabajo_Final.ipynb`, cells 10-18, 25-28, 38-42, 51-60, and 77-125.
 - Reconstruction-error thresholding and multi-metric evaluation.
 - Clear reporting of limitations and false-positive trade-offs.
 
-`Trabajo_Final.ipynb` is the final project record. `Pruebas autoencoder
+`notebooks/final/fraud-detection-analysis.ipynb` is the final project record. `Pruebas autoencoder
 0.ipynb` contains earlier development iterations and is distinct from the final
 experiment narrative.
