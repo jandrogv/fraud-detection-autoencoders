@@ -2,45 +2,54 @@
 
 ## Purpose
 
-Prepare the existing repository to become a recruiter-facing public portfolio project. repository that demonstrates
-an end-to-end fraud-anomaly-detection workflow without exposing private data,
-personal information, internal configuration, or unverified claims.
+Prepare this existing repository for a later public release as a
+recruiter-facing Master's-project portfolio. The release will present the
+existing final notebook, original dissertation, and selected historical
+outputs; it will not recreate the implementation or rerun the project.
 
 ## Public audience
 
-The public repository is intended for technical recruiters, hiring managers,
-and practitioners interested in machine learning, anomaly detection, and
-reproducible data workflows.
+Technical recruiters, hiring managers, and practitioners reviewing applied
+machine-learning work in anomaly detection, deep learning, and data analysis.
 
-## Public proposition
+## Professional proposition
 
-The portfolio version will explain and recreate the project workflow:
+The repository documents an end-to-end fraud-anomaly-detection project:
 
-- exploratory analysis of an imbalanced transaction dataset;
-- preprocessing and train/validation/test partitioning;
-- PCA as a baseline;
-- conventional autoencoder and variational autoencoder experiments;
-- reconstruction-MSE anomaly scoring and percentile-based thresholding; and
-- evaluation through ROC-AUC, precision, recall, specificity, and visual
-  analysis.
+- exploratory analysis of highly imbalanced transaction data;
+- documented preprocessing and partitioning;
+- a PCA baseline, conventional autoencoder, and variational autoencoder;
+- reconstruction-MSE anomaly scoring with percentile-based thresholding; and
+- evaluation with ROC-AUC, precision, recall, specificity, confusion matrices,
+  reconstruction-error analysis, and visual outputs.
 
-Reported results must remain traceable to `Trabajo Final de Master.pdf` and
-`Trabajo_Final.ipynb` until they are reproduced by the approved public
-workflow.
+Historical values must be labelled **results reported in the original project**
+and cited to `Trabajo Final de Master.pdf` and/or `Trabajo_Final.ipynb`. They
+must not be presented as newly reproduced results.
 
-## Publication constraints
+## Publication strategy
 
-- The private repository remains the source of truth.
-- The complete dataset is not approved for redistribution.
-- The public repository must have a separate Git history.
-- Public documentation and new code must be in English.
-- The original Spanish dissertation remains a private reference; an English
-  executive summary will be created instead.
-- Any public metric must cite a reproducible source and preserve its
-  limitations, especially the false-positive trade-off.
+- This existing repository will be cleaned and later made public.
+- No separate public repository, code reimplementation, refactor, translation,
+  model run, or synthetic-data workflow is planned.
+- `Trabajo_Final.ipynb` is the primary implementation record.
+- `Pruebas autoencoder 0.ipynb` is an earlier experimental record and is not a
+  recruiter-facing default. Its final visibility is `NEEDS OWNER CONFIRMATION`.
+- The Spanish dissertation may be published after a privacy review.
+- Public-facing documentation will be written in English.
+
+## Reporting controls
+
+- Keep normal-only and SMOTE-balanced experiments explicitly separate.
+- Preserve the reported low-precision/false-positive limitation alongside
+  recall, specificity, and AUC.
+- Preserve the unresolved PCA discrepancy: the dissertation reports a
+  normal-only test AUC of 0.48, while the notebook narrative reports 0.52.
+  Do not select one as definitive without owner review.
 
 ## Release gate
 
-The owner must approve the data-access wording, final public file list,
-personal-attribution policy, metric narrative, and repository licence before
-the public repository is created or made visible.
+Before visibility changes, the owner must approve the final visible file list,
+dissertation privacy review, data and personal-information review, model-binary
+decision, historical metric wording, repository licence, and security/Git
+history review. Each unresolved item is `NEEDS OWNER CONFIRMATION`.

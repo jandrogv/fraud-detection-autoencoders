@@ -8,51 +8,54 @@ using autoencoders and variational autoencoders.
 
 ## Portfolio objective
 
-The public portfolio repository should demonstrate:
+The future public repository should demonstrate:
 
 - Exploratory data analysis.
 - Data preprocessing.
 - Handling of highly imbalanced data.
-- Autoencoder design and training.
-- Variational autoencoder design and training.
-- Reconstruction-error analysis.
-- Anomaly-threshold selection.
-- Model evaluation.
-- Visual communication of results.
-- Reproducible machine-learning workflows.
+- Autoencoder and variational-autoencoder experiments.
+- Reconstruction-error analysis and anomaly-threshold selection.
+- Careful evaluation and visual communication of historical results.
 
 ## Language policy
 
-- Public documentation must be written in English.
-- The original dissertation may remain in Spanish.
-- An English executive summary must be created.
-- Existing code should only be translated or renamed when the change is safe.
-- Dataset column names may remain unchanged when documented in English.
+- Public-facing documentation must be written in English.
+- The original dissertation may remain in Spanish and may be published only
+  after the owner completes a privacy review.
+- The English public documentation will provide the recruiter-facing context;
+  a separate executive summary is not part of the current plan.
+- Existing source code, notebook text, variable names, and dataset fields will
+  not be translated or refactored.
 
 ## Publication constraints
 
-- Do not create a public repository during the audit.
-- Do not publish or reproduce secret values.
+- This existing repository, after a controlled cleanup, is the future public
+  repository; do not create a separate repository.
+- Do not publish or reproduce secret values, private configuration, or real
+  transaction data.
 - Do not assume that the dataset can be redistributed.
 - Do not invent or modify project results.
-- Do not delete original files.
-- Do not modify the main branch directly.
+- Do not delete, refactor, translate, or execute the original notebooks,
+  dissertation, or model files during the documentation-planning phase.
+- Do not retrain or evaluate models, create a new implementation, or alter
+  Git history during this phase.
 - Flag all uncertain publication decisions for owner confirmation.
 
 ## Approved publication approach
 
 - This existing repository will be prepared and later made public.
-- No separate public repository will be created for this project.
-- The original source code and notebooks will not be refactored.
-- No new machine-learning implementation will be created.
-- No model retraining is required.
-- The main task is to create clear English documentation and select the
-  existing files that should remain visible.
-- Historical results may be presented when clearly labelled as results
-  reported in the original project.
-- The original dissertation may be published after a privacy review.
-- Existing model files should be evaluated for usefulness, size and public
-  value before publication.
+- No separate public repository, code reimplementation, synthetic-data
+  workflow, test suite, script, command-line interface, or rerun is planned.
+- `Trabajo_Final.ipynb` is the final implementation record.
+- `Pruebas autoencoder 0.ipynb` is an earlier experimental record and is not a
+  recruiter-facing default.
+- Historical results may be presented only as results reported in the original
+  project, with their source and limitations.
+- Existing model artifacts will be assessed for recruiter-facing value before
+  any publication decision.
+- The normal-only and SMOTE-balanced experiments must be labelled separately.
+- The PCA discrepancy between the dissertation and notebook remains an
+  unresolved historical-reporting issue. `NEEDS OWNER CONFIRMATION`.
 
 ## Expected public repository
 
@@ -60,4 +63,5 @@ Provisional name:
 
 `fraud-detection-autoencoders`
 
-The final name and structure require owner approval.
+The final name, visible file list, licence, and publication timing require
+owner approval.
