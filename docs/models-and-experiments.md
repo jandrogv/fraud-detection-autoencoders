@@ -14,7 +14,7 @@ and 63-66.
 PCA is a 30-component reconstruction baseline. Its normal-only test result is
 weak and internally inconsistent: the dissertation reports AUC 0.48 while the
 notebook narrative reports 0.52. This documentation preserves, rather than
-resolves, the discrepancy. Sources: `Trabajo Final de Master.pdf`, p. 36;
+resolves, the discrepancy. Sources: `report/master-thesis-fraud-detection-es.pdf`, p. 36;
 `Trabajo_Final.ipynb`, cells 80-82.
 
 ## Conventional autoencoder
@@ -22,14 +22,14 @@ resolves, the discrepancy. Sources: `Trabajo Final de Master.pdf`, p. 36;
 The conventional autoencoder is an encoder-decoder model with ELU activations,
 batch normalisation, dropout, and a bottleneck. The SMOTE-balanced variant is
 deeper. It flags unusually large reconstruction errors. Sources:
-`Trabajo_Final.ipynb`, cells 84 and 108; `Trabajo Final de Master.pdf`, p. 61.
+`Trabajo_Final.ipynb`, cells 84 and 108; `report/master-thesis-fraud-detection-es.pdf`, p. 61.
 
 ## Variational autoencoder
 
 The VAE uses a latent distribution and reparameterised sampling. Its custom
 objective combines reconstruction loss and Kullback-Leibler divergence. It is
 evaluated through the same reconstruction-error framework. Sources:
-`Trabajo_Final.ipynb`, cells 68-70, 93, and 117; `Trabajo Final de Master.pdf`,
+`Trabajo_Final.ipynb`, cells 68-70, 93, and 117; `report/master-thesis-fraud-detection-es.pdf`,
 pp. 62-63.
 
 ## Experiment families

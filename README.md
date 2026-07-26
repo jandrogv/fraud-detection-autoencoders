@@ -26,10 +26,10 @@ reproduced while preparing this documentation.
 
 | Experiment | AUC | Precision | Recall | Specificity | Source |
 |---|---:|---:|---:|---:|---|
-| Conventional autoencoder, normal-only test | 0.95 | 11.77% | 86.65% | 94.95% | `Trabajo Final de Master.pdf`, p. 37; `Trabajo_Final.ipynb`, cells 91-92 |
-| VAE, normal-only test | 0.92 | 10.06% | 71.49% | 95.03% | `Trabajo Final de Master.pdf`, p. 38; `Trabajo_Final.ipynb`, cells 100-101 |
-| Conventional autoencoder, SMOTE-balanced test | 0.94 | 2.30% | 82.83% | 93.86% | `Trabajo Final de Master.pdf`, p. 48; `Trabajo_Final.ipynb`, cells 108-116 |
-| VAE, SMOTE-balanced test | 0.93 | 1.98% | 71.72% | 93.783% | `Trabajo Final de Master.pdf`, p. 49; `Trabajo_Final.ipynb`, cells 117-125 |
+| Conventional autoencoder, normal-only test | 0.95 | 11.77% | 86.65% | 94.95% | `report/master-thesis-fraud-detection-es.pdf`, p. 37; `Trabajo_Final.ipynb`, cells 91-92 |
+| VAE, normal-only test | 0.92 | 10.06% | 71.49% | 95.03% | `report/master-thesis-fraud-detection-es.pdf`, p. 38; `Trabajo_Final.ipynb`, cells 100-101 |
+| Conventional autoencoder, SMOTE-balanced test | 0.94 | 2.30% | 82.83% | 93.86% | `report/master-thesis-fraud-detection-es.pdf`, p. 48; `Trabajo_Final.ipynb`, cells 108-116 |
+| VAE, SMOTE-balanced test | 0.93 | 1.98% | 71.72% | 93.783% | `report/master-thesis-fraud-detection-es.pdf`, p. 49; `Trabajo_Final.ipynb`, cells 117-125 |
 
 Low precision remains an important false-positive limitation. The PCA
 normal-only test is not a headline result because the dissertation reports AUC
@@ -44,7 +44,7 @@ Matplotlib, and Seaborn. Source: `Trabajo_Final.ipynb`, cell 2.
 
 - [Final project notebook](Trabajo_Final.ipynb) - primary implementation and analysis record.
 - [Experimental notebook](Pruebas%20autoencoder%200.ipynb) - earlier experiments and tests.
-- [Master's dissertation (Spanish)](Trabajo%20Final%20de%20Master.pdf) - primary historical-results source.
+- [Master's dissertation (Spanish)](report/master-thesis-fraud-detection-es.pdf) - primary historical-results source.
 - [Project overview](docs/project-overview.md)
 - [Data and preprocessing](docs/data-and-preprocessing.md)
 - [Models and experiments](docs/models-and-experiments.md)
