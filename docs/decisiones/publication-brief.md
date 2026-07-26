@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Prepare a separate, recruiter-facing portfolio repository that demonstrates
+Prepare the existing repository to become a recruiter-facing public portfolio project. repository that demonstrates
 an end-to-end fraud-anomaly-detection workflow without exposing private data,
 personal information, internal configuration, or unverified claims.
 

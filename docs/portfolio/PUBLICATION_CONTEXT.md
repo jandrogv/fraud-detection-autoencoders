@@ -39,6 +39,21 @@ The public portfolio repository should demonstrate:
 - Do not modify the main branch directly.
 - Flag all uncertain publication decisions for owner confirmation.
 
+## Approved publication approach
+
+- This existing repository will be prepared and later made public.
+- No separate public repository will be created for this project.
+- The original source code and notebooks will not be refactored.
+- No new machine-learning implementation will be created.
+- No model retraining is required.
+- The main task is to create clear English documentation and select the
+  existing files that should remain visible.
+- Historical results may be presented when clearly labelled as results
+  reported in the original project.
+- The original dissertation may be published after a privacy review.
+- Existing model files should be evaluated for usefulness, size and public
+  value before publication.
+
 ## Expected public repository
 
 Provisional name:

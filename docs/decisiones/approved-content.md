@@ -1,59 +1,44 @@
 # Approved Public Content
 
-This document defines the approved scope for a future public repository. New
-public files listed below are deliverables to recreate; they are not existing
-private source files to copy unchanged.
+## Existing implementation
 
-## Approved source code
+- `Trabajo_Final.ipynb`
+  - Final implementation and analysis notebook.
+  - It will remain technically unchanged.
+  - Its purpose and structure will be documented in English.
 
-- `src/preprocessing.py` - clean, English implementation of approved
-  transformations and scaling.
-- `src/autoencoder.py` - recreated conventional autoencoder architecture.
-- `src/variational_autoencoder.py` - recreated VAE architecture, sampling,
-  and loss logic.
-- `src/evaluation.py` - reconstruction scoring, thresholding, metrics, and
-  chart generation.
+- `Pruebas autoencoder 0.ipynb`
+  - Experimental notebook containing previous tests and iterations.
+  - It may remain public as supporting development evidence.
+  - It must be clearly labelled as an experimental notebook.
 
-Each source file must be recreated from the approved methodology in
-`Trabajo_Final.ipynb` and verified before public release.
+## Academic report
 
-## Approved notebooks
+- `Trabajo Final de Master.pdf`
+  - Original Master's dissertation in Spanish.
+  - Publication is subject to a manual privacy review.
+  - An English executive summary will be provided.
 
-- `notebooks/01_exploratory_analysis.ipynb`
-- `notebooks/02_pca_baseline.ipynb`
-- `notebooks/03_autoencoders.ipynb`
+## Public documentation to create
 
-The notebooks must be cleaned before publication. They must not contain raw
-dataset rows, local paths, personal attribution, cached outputs, credentials,
-or results that cannot be reproduced by the public workflow.
+- `README.md`
+- `docs/project-overview.md`
+- `docs/data-and-preprocessing.md`
+- `docs/models-and-experiments.md`
+- `docs/results-and-limitations.md`
 
-## Approved documentation
+## Optional public assets
 
-- English executive summary of the dissertation.
-- Dataset dictionary and data-access policy.
-- Methodology summary covering preprocessing, split design, and thresholding.
-- Results summary with source-backed metrics and limitations.
-- Reproducibility instructions, including environment setup and synthetic-data
-  demonstration.
+- Project workflow diagram.
+- Autoencoder and VAE architecture diagrams.
+- Selected result tables.
+- Selected existing figures that are safe and readable.
 
-The original Spanish dissertation PDF is approved as a private reference for
-these documents, not for direct inclusion in the public repository.
+## Content excluded by default
 
-## Approved assets
-
-- Recreated reconstruction-error distributions.
-- Recreated ROC and precision-recall curves.
-- Recreated confusion matrices.
-- Recreated training-history figures after a verified rerun.
-- Recreated autoencoder and VAE architecture diagrams.
-
-## Not approved
-
-- Full raw dataset or transaction records.
-- Dataset redistribution without confirmed licence and owner approval.
-- Local configuration, secrets, credentials, or absolute paths.
-- Temporary model checkpoints, binary model weights, and cached notebook
-  outputs.
-- The original dissertation PDF, internal audit documents, or private Git
-  history.
-- Conflicting or unreproduced metrics presented as new public results.
+- `creditcard.csv`
+- Temporary notebook files.
+- Local configuration.
+- Cache folders.
+- Internal portfolio audit documents.
+- Model binaries that do not add clear portfolio value.

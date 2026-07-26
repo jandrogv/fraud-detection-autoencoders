@@ -1,44 +1,30 @@
 # Publication Decisions
 
-## Data
+## Repository strategy
 
-- The complete dataset will remain outside the public repository.
-- A schema-compatible synthetic sample may be provided when legally and
-  technically appropriate.
-- The public repository will contain approved instructions for obtaining data
-  only after its source, licence, and access wording are confirmed.
+- The current private repository will be cleaned and later made public.
+- A separate public repository will not be created.
+- The existing project history may be preserved if the full Git history
+  passes the security review.
+- No source-code refactoring or model retraining is planned.
 
-## Language
+## Dissertation
 
-- All public documentation will be written in English.
-- The original dissertation will remain in Spanish and private.
-- An English executive summary will be created.
+- The original Spanish dissertation may remain in the public repository
+  after a manual privacy review.
+- An English executive summary will be created for international readers.
 
-## Repository history
+## Source code
 
-- The public repository will have a new and independent Git history.
-- The private source repository will not be converted into a public
-  repository.
+- Existing notebooks will remain technically unchanged.
+- Documentation will explain the purpose of the final notebook and the
+  experimental notebook.
+- Code will only be removed when it is clearly unnecessary or unsafe to
+  publish.
 
-## Models
+## Model files
 
-- Final model files will only be published when their size, loader
-  compatibility, and data implications have been reviewed.
-- The default public release will recreate model architectures and figures,
-  not publish the existing binary checkpoints.
-
-## Results
-
-- Public results must cite a verified reproduction or be explicitly labelled
-  as historical reported results.
-- The differing normal-only PCA value between the dissertation and notebook
-  requires owner review before it is published.
-- Precision, recall, specificity, and false-positive limitations must be
-  reported together.
-
-## Public release
-
-- The public repository will remain private until the complete release has
-  passed technical, security, content, and owner review.
-- No public repository will be created from this private repository without
-  the approved file list.
+- Existing trained models will be reviewed individually.
+- Model binaries that provide no recruiter-facing value may be removed from
+  the public version.
+- Local copies will remain available outside GitHub.
